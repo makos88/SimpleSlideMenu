@@ -41,7 +41,7 @@
 		0294B1561A4A389500E5A54F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		0294B1571A4A389500E5A54F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		0294B1591A4A3A7F00E5A54F /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
-		02CC8D991A4EFAFA00A72F52 /* SimpleSlideMenu--Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleSlideMenu--Bridging-Header.h"; sourceTree = "<group>"; };
+		02CC8D991A4EFAFA00A72F52 /* SimpleSlideMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleSlideMenu-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +91,7 @@
 				0294B13E1A4A368200E5A54F /* LaunchScreen.xib */,
 				0294B1301A4A368200E5A54F /* Supporting Files */,
 				0294B1591A4A3A7F00E5A54F /* NavigationViewController.swift */,
-				02CC8D991A4EFAFA00A72F52 /* SimpleSlideMenu--Bridging-Header.h */,
+				02CC8D991A4EFAFA00A72F52 /* SimpleSlideMenu-Bridging-Header.h */,
 			);
 			path = SimpleSlideMenu;
 			sourceTree = "<group>";
@@ -361,7 +361,7 @@
 				INFOPLIST_FILE = SimpleSlideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/makos/Documents/ios/SimpleSlideMenu/SimpleSlideMenu/SimpleSlideMenu--Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/makos/Documents/ios/SimpleSlideMenu/SimpleSlideMenu/SimpleSlideMenu-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -372,7 +372,7 @@
 				INFOPLIST_FILE = SimpleSlideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/makos/Documents/ios/SimpleSlideMenu/SimpleSlideMenu/SimpleSlideMenu--Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/makos/Documents/ios/SimpleSlideMenu/SimpleSlideMenu/SimpleSlideMenu-Bridging-Header.h";
 			};
 			name = Release;
 		};
