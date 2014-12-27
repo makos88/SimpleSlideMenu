@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		0294B1331A4A368200E5A54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294B1321A4A368200E5A54F /* AppDelegate.swift */; };
-		0294B1361A4A368200E5A54F /* SimpleSlideMenu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0294B1341A4A368200E5A54F /* SimpleSlideMenu.xcdatamodeld */; };
 		0294B1381A4A368200E5A54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294B1371A4A368200E5A54F /* ViewController.swift */; };
 		0294B13B1A4A368200E5A54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0294B1391A4A368200E5A54F /* Main.storyboard */; };
 		0294B13D1A4A368200E5A54F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0294B13C1A4A368200E5A54F /* Images.xcassets */; };
 		0294B1401A4A368200E5A54F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0294B13E1A4A368200E5A54F /* LaunchScreen.xib */; };
 		0294B14C1A4A368200E5A54F /* SimpleSlideMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294B14B1A4A368200E5A54F /* SimpleSlideMenuTests.swift */; };
+		0294B1581A4A389500E5A54F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0294B1571A4A389500E5A54F /* SWRevealViewController.m */; };
+		0294B15A1A4A3A7F00E5A54F /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0294B1591A4A3A7F00E5A54F /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +31,6 @@
 		0294B12D1A4A368200E5A54F /* SimpleSlideMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleSlideMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0294B1311A4A368200E5A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0294B1321A4A368200E5A54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0294B1351A4A368200E5A54F /* SimpleSlideMenu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleSlideMenu.xcdatamodel; sourceTree = "<group>"; };
 		0294B1371A4A368200E5A54F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0294B13A1A4A368200E5A54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0294B13C1A4A368200E5A54F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -38,6 +38,10 @@
 		0294B1451A4A368200E5A54F /* SimpleSlideMenuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleSlideMenuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0294B14A1A4A368200E5A54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0294B14B1A4A368200E5A54F /* SimpleSlideMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleSlideMenuTests.swift; sourceTree = "<group>"; };
+		0294B1561A4A389500E5A54F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		0294B1571A4A389500E5A54F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		0294B1591A4A3A7F00E5A54F /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		02CC8D991A4EFAFA00A72F52 /* SimpleSlideMenu--Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleSlideMenu--Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +83,15 @@
 		0294B12F1A4A368200E5A54F /* SimpleSlideMenu */ = {
 			isa = PBXGroup;
 			children = (
+				0294B1551A4A389500E5A54F /* Libraries */,
 				0294B1321A4A368200E5A54F /* AppDelegate.swift */,
 				0294B1371A4A368200E5A54F /* ViewController.swift */,
 				0294B1391A4A368200E5A54F /* Main.storyboard */,
 				0294B13C1A4A368200E5A54F /* Images.xcassets */,
 				0294B13E1A4A368200E5A54F /* LaunchScreen.xib */,
-				0294B1341A4A368200E5A54F /* SimpleSlideMenu.xcdatamodeld */,
 				0294B1301A4A368200E5A54F /* Supporting Files */,
+				0294B1591A4A3A7F00E5A54F /* NavigationViewController.swift */,
+				02CC8D991A4EFAFA00A72F52 /* SimpleSlideMenu--Bridging-Header.h */,
 			);
 			path = SimpleSlideMenu;
 			sourceTree = "<group>";
@@ -113,6 +119,15 @@
 				0294B14A1A4A368200E5A54F /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0294B1551A4A389500E5A54F /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0294B1561A4A389500E5A54F /* SWRevealViewController.h */,
+				0294B1571A4A389500E5A54F /* SWRevealViewController.m */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,8 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0294B1381A4A368200E5A54F /* ViewController.swift in Sources */,
-				0294B1361A4A368200E5A54F /* SimpleSlideMenu.xcdatamodeld in Sources */,
 				0294B1331A4A368200E5A54F /* AppDelegate.swift in Sources */,
+				0294B15A1A4A3A7F00E5A54F /* NavigationViewController.swift in Sources */,
+				0294B1581A4A389500E5A54F /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +361,7 @@
 				INFOPLIST_FILE = SimpleSlideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/makos/Documents/ios/SimpleSlideMenu/SimpleSlideMenu/SimpleSlideMenu--Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -355,6 +372,7 @@
 				INFOPLIST_FILE = SimpleSlideMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/makos/Documents/ios/SimpleSlideMenu/SimpleSlideMenu/SimpleSlideMenu--Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -411,6 +429,7 @@
 				0294B1511A4A368200E5A54F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0294B1521A4A368200E5A54F /* Build configuration list for PBXNativeTarget "SimpleSlideMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -419,21 +438,9 @@
 				0294B1541A4A368200E5A54F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		0294B1341A4A368200E5A54F /* SimpleSlideMenu.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				0294B1351A4A368200E5A54F /* SimpleSlideMenu.xcdatamodel */,
-			);
-			currentVersion = 0294B1351A4A368200E5A54F /* SimpleSlideMenu.xcdatamodel */;
-			path = SimpleSlideMenu.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 0294B1251A4A368200E5A54F /* Project object */;
 }

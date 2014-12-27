@@ -9,17 +9,21 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBAction func actionMenuTapped(sender: UIBarButtonItem) {
+        self.revealViewController().revealToggle(sender)
+    }
+    
+    @IBOutlet weak var barButton: UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
-
-
 }
 
